@@ -4,7 +4,7 @@
 
 int main() {
     int chr = '\0';
-
+    /* any assignment can be used as an expression; its value is the value being assigned */
     while ((chr = getchar()) != EOF) {
         if (chr == ' ' || chr == '\t') {
             putchar('\n');
