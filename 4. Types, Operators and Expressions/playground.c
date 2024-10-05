@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num = 12;
-    float f = 1.123;
-    num = f;
-    printf("%d", num);
+    int a = 0b111001010;
+    int result =  (~0) << 3;
+    printf("%d\n", result);
 }
